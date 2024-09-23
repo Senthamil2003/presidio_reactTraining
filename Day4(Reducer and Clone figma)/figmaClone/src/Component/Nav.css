@@ -1,0 +1,37 @@
+
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(1400px, 95%);
+  margin: auto;
+}
+.nav-head {
+  font-size: 36px;
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+}
+.nav-action-cont {
+  display: flex;
+  align-items: center;
+}
+.nav-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-action-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-action-icon div {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-cont {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

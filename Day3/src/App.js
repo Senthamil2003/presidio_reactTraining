@@ -24,7 +24,7 @@ function App() {
     } else if (sortCriteria === "description") {
       return a.Description.localeCompare(b.Description);
     }
-    return 0; // Default case
+    return 0; 
   });
  
   return (
