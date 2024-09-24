@@ -1,0 +1,136 @@
+*, *::before, *::after {
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  background-color: #1a1625;
+  color: rgba(249, 239, 239, 0.808);
+  padding: 2rem;
+}
+
+.stock-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 33%;
+  white-space: nowrap;
+}
+
+.stock-list-item {
+  list-style: none;
+  background: #544872;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px grey;
+  border-radius: 4px;
+}
+
+.buy-button {
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  outline: none;
+  background: #9a91ac;
+  border: none;
+  border-radius: 2px;
+}
+
+.sell-button {
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  outline: none;
+  background: rgb(190, 116, 222);
+  border: none;
+  border-radius: 2px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-1-5 {
+  gap: 1.5rem;
+}
+
+.gap-2-5 {
+  gap: 2.5rem;
+}
+
+.gap-0-5 {
+  gap: 0.5rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.flex-basis-1 {
+  flex-basis: 1;
+}
+
+.flex-basis-0 {
+  flex-basis: 0;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

@@ -1,0 +1,44 @@
+.home-main-txt {
+  font-size: 48px;
+  font-family: poppins;
+  font-weight: 700;
+}
+.home-green-txt {
+  color: #10b981;
+}
+.home-cont {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-image: linear-gradient(to right, #eedab5, #e6f8ef, #e6f8ef);
+}
+.home-underline {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 2%;
+}
+.home-hero-img{
+  background-image: url("../assets/Images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.shop-now {
+    margin-top: 10%;
+  border-radius: 26px;
+  border: none;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
