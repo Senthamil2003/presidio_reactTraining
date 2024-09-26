@@ -1,0 +1,11 @@
+.home-tot-cont{
+    padding: 1%;
+}
+.home-action-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.from-cont .to-cont{
+    width: 20px;
+}

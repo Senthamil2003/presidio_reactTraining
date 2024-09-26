@@ -22,12 +22,12 @@ export const MyStockSlice = createSlice({
       state.MyBalance -= action.payload.price;
     },
     SellStock: (state, action) => {
-      console.log(action)
+      console.log(action);
       const updatedStocks = state.myStock.filter((item) => {
-       return item.id != action.payload.id;
+        return item.id != action.payload.id;
       });
       state.myStock = updatedStocks;
-      
+
       state.MyBalance +=
         Number(action.payload.price) * Number(action.payload.ct);
     },
